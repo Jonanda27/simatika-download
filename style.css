@@ -144,19 +144,28 @@ body {
 }
 
 .app-icon {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, var(--blob-1), var(--blob-2));
-    border-radius: 0;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 15px;
-    box-shadow: 0 10px 25px -5px rgba(112, 74, 55, 0.5);
+    margin: 0 auto 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 10px;
 }
 
 .app-icon svg {
     color: white;
+}
+
+.custom-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 h1 {
